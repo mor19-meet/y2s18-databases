@@ -34,3 +34,4 @@ class Knowledge(Base):
 laith = Knowledge(topic = "dance", link =  "https://en.wikipedia.org/wiki/Dance" , rating = 8)
 # print (laith)
 
+
