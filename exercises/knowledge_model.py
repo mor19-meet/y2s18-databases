@@ -14,8 +14,6 @@ class Knowledge(Base):
 	rating = Column(Integer)
 
 	def __repr__(self):
-		if (self.rating < 7):
-			return("Unfortunately, this article does not have a better rating. Maybe, this is an article that should be replaced soon!.")
 		return ("topic id: {}\n"
 				"topic: {}\n"
 				"link: {}\n"
@@ -34,4 +32,5 @@ class Knowledge(Base):
 	# 	self.link = link
 	# 	self.rating = rating
 laith = Knowledge(topic = "dance", link =  "https://en.wikipedia.org/wiki/Dance" , rating = 8)
-print (laith)
+# print (laith)
+
